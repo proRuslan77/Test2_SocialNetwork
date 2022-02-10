@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Profile from './components/Profile';
-import TestGit from './components/TestGit';
 
 
 const App = () => {
@@ -16,7 +15,6 @@ const App = () => {
 
       <Profile/>
 
-      <TestGit/>
 
     </div>
   )
