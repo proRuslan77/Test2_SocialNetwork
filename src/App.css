@@ -1,36 +1,15 @@
 
 .App-wrapper {
-
-  /* назначаем элемент контейнером */
   display: grid;
-  /* разметка */
   grid-template-areas:
     "h h"
     "n mc";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  /* отступы */
   grid-gap: 10px;
 }
 
-.header {
-  grid-area: h;
-  background-color: aquamarine;
-}
 
-.header img {
-  width: 70px;
-}
-
-.sidebar {
-  grid-area: n;
-  background-color: aqua;
-}
-
-.profile {
-  grid-area: mc;
-  background-color: bisque;
-}
 
 /* .App {
   text-align: center;
