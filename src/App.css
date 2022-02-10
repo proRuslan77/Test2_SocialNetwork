@@ -1,0 +1,72 @@
+
+.App-wrapper {
+
+  /* назначаем элемент контейнером */
+  display: grid;
+  /* разметка */
+  grid-template-areas:
+    "h h"
+    "n mc";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* отступы */
+  grid-gap: 10px;
+}
+
+.header {
+  grid-area: h;
+  background-color: aquamarine;
+}
+
+.header img {
+  width: 70px;
+}
+
+.sidebar {
+  grid-area: n;
+  background-color: aqua;
+}
+
+.profile {
+  grid-area: mc;
+  background-color: bisque;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
