@@ -1,12 +1,12 @@
 import React from "react";
-import './Profile.css'
+import s from './Profile.module.css'
 
 const Profile = () => {
     return(
-        <main className='profile'>
+        <main className={s.profile}>
 
-        <div>
-          <img src='https://avatars.mds.yandex.net/get-zen_doc/163385/pub_5be3fb0e726d1b00ae9f5d71_5be45ede72909500aa1f0b40/scale_1200'/>
+        <div className={s.img}>
+          <img src='https://gagadget.com/media/cache/8b/9f/8b9fed822430d4cf1906fa897df8bed9.png'/>
         </div>
 
         <div>
@@ -14,17 +14,17 @@ const Profile = () => {
         </div>
 
         <div>
-          my posts
+          My posts
           <div>New posts</div>
 
           <div>
-            <div className='item'>post1</div>
-            <div className='item'>post2</div>
+            <div className={s.item}>post1</div>
+            <div className={s.item}>post2</div>
           </div>
         </div>
 
         <div>
-          other
+          Other
         </div>
 
       </main>

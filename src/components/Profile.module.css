@@ -1,0 +1,16 @@
+.profile {
+  grid-area: mc;
+  background-color: bisque;
+}
+
+.item {
+  color: green;
+}
+
+.profile img {
+  width: 100%;
+  height: 200px;
+}
+
+
+
