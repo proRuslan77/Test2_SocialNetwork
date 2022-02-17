@@ -1,15 +1,15 @@
-import React from "react";
+// import React from "react";
 import s from './MyPosts.module.css'
 import Post from "./Post/Post";
 
 const MyPosts = () => {
     return(
 
-        <div>
+        <div className={s.posts}>
           My posts
 
-            <Post/>
-            <Post/>
+            <Post message="Hi, Bro" count='10' />
+            <Post message="Welcome to Hell" count='5' />
             <Post/>
             <Post/>
             <Post/>

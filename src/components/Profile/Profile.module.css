@@ -1,9 +1,5 @@
-.profile {
-  grid-area: mc;
-  background-color: bisque;
-}
 
-.profile img {
+.img {
   width: 100%;
   height: 200px;
 }

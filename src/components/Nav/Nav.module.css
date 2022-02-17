@@ -1,6 +1,6 @@
 .sidebar {
     grid-area: n;
-    background-color: aqua;
+    background-color: rgb(192, 188, 137);
   }
 
 .item {
@@ -8,5 +8,5 @@
   }
 
  .item.active {
-   color: gold
+   color: rgb(12, 12, 11)
  } 
